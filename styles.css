@@ -1,0 +1,24 @@
+body {
+    background-color: #080679;
+    color: white;
+    font-family: "PT Serif", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #f74600;
+    color: rgb(252, 249, 249);
+    font-family:  "PT Serif", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
